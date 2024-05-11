@@ -1,0 +1,13 @@
+{
+  "name": "ay-sensors-direct",
+  "version": "1.0.7",
+  "description": "爱用 神策，直接通过http向神策里面发送",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=production webpack --watch ",
+    "build": "cross-env NODE_ENV=production webpack & node ../../exec/pack-dts.js ay-sensors-direct"
+  },
+  "dependencies": {
+    "ay-sensors-share": "workspace:*"
+  }
+}

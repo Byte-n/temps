@@ -1,0 +1,6 @@
+/**/.idea/
+/**/*.iml
+/**/debug.log
+/**/*.js.map
+**/node_modules/
+
